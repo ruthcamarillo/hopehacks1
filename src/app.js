@@ -33,9 +33,9 @@ app.get('/contact', (req, res) => {
 })
 
 app.get('/resources', (req, res) => {
-    res.render('help', {
+    res.render('resources', {
         helptxt: 'This is some helpful text.',
-        title: 'Help',
+        title: 'Resources',
         name: 'Team 6'
 
     })
