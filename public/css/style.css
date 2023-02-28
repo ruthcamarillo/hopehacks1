@@ -70,8 +70,8 @@ a
     transition: 0.3s;
   }
   /* When you mouse over the navigation links, change their color */
-  .overlay a:hover, .overlay a:focus {
-    color: #black;
+  .overlay a:hover .overlay a:focus {
+    color: black;
   }
   /* Position the close button (top right corner) */
   .overlay .closebtn {
@@ -83,9 +83,95 @@ a
   .header{
     background-color: black;
   }
+/* CSS for home.handlebars */
+
+/* Set the background color of the body */
+body {
+    background-color: #f8f8f8;
+  }
+  
+  /* Add some padding to the main content area */
+  .main {
+    padding: 20px;
+  }
+  
+  /* Style the search form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  form button {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #2c3e50;
+  }
+  
+  /* Style the search results */
+  .results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .results h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .results p {
+    margin: 10px 0;
+  }
+  
+  .results img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
 .footer-basic {
     padding: 40px 0;
-    background-color: #ffffff;
+    background-color: #1a1313;
     color: #4b4c4d;
 }
 
