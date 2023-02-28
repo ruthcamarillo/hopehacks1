@@ -11,45 +11,66 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
 <body>
     {{>header}}
-    <h1> Test Run of GutSavvi</h1>
-        	<h2>Recipe Search</h2>
 
-	<label for="query">Recipe:</label>
-	<input type="text" id="query" name="query">
+    <div class="container">
+        <div class="main-box">
+            <h1 class="headers"> Test Run of GutSavvi</h1>
+            <h2 class="headers">Recipe Search</h2>
 
-	<label for="cuisine">Cuisine:</label>
-	<input type="text" id="cuisine" name="cuisine">
+            <div class="searching-box">
+                <label for="query">Recipe:</label>
+                <input type="text" id="query" name="query">
 
-	<label for="diet">Diet:</label>
-	<input type="text" id="diet" name="diet">
+                <label for="cuisine">Cuisine:</label>
+                <input type="text" id="cuisine" name="cuisine">
 
-	<label for="intolerances">Intolerances:</label>
-	<input type="text" id="intolerances" name="intolerances">
+                <label for="diet">Diet:</label>
+                <input type="text" id="diet" name="diet">
 
-  <label for="includeInstructions">Include Instructions:</label>
-  <input type="checkbox" id="includeInstructions" name="includeInstructions" checked>
+                <label for="intolerances">Intolerances:</label>
+                <input type="text" id="intolerances" name="intolerances">
+            </div>
 
-  <label for="includeIngredients">Include Ingredients:</label>
-  <input type="checkbox" id="includeIngredients" name="includeIngredients" checked>
+            <div class="checklist">
+                <label for="includeInstructions">Include Instructions:</label>
+                <input type="checkbox" id="includeInstructions" name="includeInstructions" checked>
+
+                <label for="includeIngredients">Include Ingredients:</label>
+                <input type="checkbox" id="includeIngredients" name="includeIngredients" checked>
+            </div>
+
+            <div class="buttonsearch">
+                {{!-- <button id="searchBtn">Search</button> --}}
+                <button data-text="Awesome" id="searchBtn">
+                    <span class="actual-text">&nbsp;GETSAVVI&nbsp;</span>
+                    <span id="hover-text" aria-hidden="true">&nbsp;GETSAVVI&nbsp;</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="results">
+        <!-- results will be displayed here -->
+    </div>
 
 
-	<button id="searchBtn">Search</button>
-
-	<div id="results">
-		<!-- results will be displayed here -->
-	</div>
-
-    
     {{>footer}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="/js/index.js"></script>
+
+
 </body>
 
 </html>
