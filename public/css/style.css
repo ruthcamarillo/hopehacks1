@@ -1,3 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+
+.menu
+{
+  position:fixed;
+  left:0px;
+  top:-50px;
+  width:100vw;
+  padding:20px;
+  text-align:center;
+  background-color:rgba(0,0,0,0.9);
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+  font-size:20px;
+  color:white;
+  /* transition */
+  transition:top 1s;
+  -webkit-transition:top 1s;
+}
+.menu:hover
+{
+  top:0px;
+}
+/* SPAN OF SPAN */
+.menu span
+{
+  margin:20px;
+}
+.menu span a:hover
+{
+  color:rgba(255,255,255,0.5);
+}
+/* Body and Title*/
+a
+{
+  text-decoration:none;
+  color:white;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+     top: 0;
+    background-color:whitesmoke;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+   }
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Slackey', cursive;
+    color: orangered;
+    display: block;
+    transition: 0.3s;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #black;
+  }
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .header{
+    background-color: black;
+  }
 .footer-basic {
     padding: 40px 0;
     background-color: #ffffff;
