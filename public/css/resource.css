@@ -3,11 +3,22 @@
     padding: 0;
 }
 
-body {
+/* body {
     text-align: center;
-    background: linear-gradient(90deg, #f75d5b 50%, #fdcfce 50%);
+    background: linear-gradient(#FAEACB, #f0621d);
 
-    /* background-color: #f75d5b; */
+     background-color: #f75d5b; 
+} */
+
+.container-fluid {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body {
+    padding: 40px;
+    max-width: 80%;
 }
 
 /* .wrapper {
