@@ -53,15 +53,16 @@ async function searchRecipes() {
   }
 }
 
-document.getElementById("main-box").onclick = function () {
-  fun()
-};
+
+// document.getElementById("main-box").onclick = function () {
+//   fun()
+// };
 
 
-function fun() {
-  document.getElementById("main-box").innerHTML = "Welcome to the javaTpoint.com";
-  document.getElementsByTagName("body")[0].style.color = "blue";
-  document.getElementsByTagName("body")[0].style.backgroundColor = "lightgreen";
-  document.getElementsByTagName("body")[0].style.fontSize = "25px";
-  document.getElementById("para").style.border = "4px solid red";
-}  
+// function fun() {
+//   document.getElementById("main-box").innerHTML = "Welcome to the javaTpoint.com";
+//   document.getElementsByTagName("body")[0].style.color = "blue";
+//   document.getElementsByTagName("body")[0].style.backgroundColor = "lightgreen";
+//   document.getElementsByTagName("body")[0].style.fontSize = "25px";
+//   document.getElementById("para").style.border = "4px solid red";
+// }  
