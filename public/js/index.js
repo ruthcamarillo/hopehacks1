@@ -1,9 +1,10 @@
-// function openNav() {
-//   document.getElementById("myNav").style.width = "100%";
-// }
-// function closeNav() {
-//   document.getElementById("myNav").style.width = "0%";
-// }
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  };
+
 const searchBtn = document.getElementById("searchBtn");
 console.log(searchBtn); // check if searchBtn is being correctly selected
 searchBtn.addEventListener("click", searchRecipes);
