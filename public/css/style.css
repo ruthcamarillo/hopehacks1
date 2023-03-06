@@ -92,13 +92,14 @@ a
   background-size: cover;
   height: 100%;
 } */
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: linear-gradient(#9fd8f1, #fedc00);
+  background: linear-gradient(#9fd8f1, #fedc00, #f0621d);
 
 
 }
@@ -108,44 +109,33 @@ body {
   background-attachment: fixed;
   background-size: contain;
 
-  /* border-radius: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+
   padding-bottom: 80px;
-  max-width: 50%;
+  max-width: 100%;
   margin: 0;
   padding-right: 0;
-  /* float: left; */
-
-
-
+  display: inline-block;
 }
-
-/* Add some padding to the main content area */
-/* .main {
-  padding: 20px;
-
-} */
 
 /* this is where our logo is living */
 .container-fluid {
   background: transparent;
   margin: 0;
   padding: 0;
-  /* float: left; */
-}
+  }
+
 
 .navbar-brand {
    padding-left: 41%;
 
   }
 
+
+
 /* Grabs the h1 and h2 for our test run */
 .headers {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   font-size: 50px;
   font-family: 'Titillium Web', sans-serif;
   color: #f0621d;
@@ -182,7 +172,6 @@ body {
   color: rgb(107, 195, 226);
   text-shadow: gray 2px 2px;
   -webkit-text-stroke: 1px var(--text-stroke-color);
-
 }
 
 /* this is the text, when you hover on button */
@@ -221,10 +210,6 @@ form button:hover {
   background-color: #2c3e50;
 }*/
 
-
-
-
-
 .buttonsearch {
   display: flex;
   justify-content: center;
@@ -232,8 +217,6 @@ form button:hover {
   height: 100px;
   /* border: 3px solid green; */
 }
-
-
 
 .searching-box {
   display: flex;
@@ -258,20 +241,6 @@ form button:hover {
   padding: 25px;
 }
 
-
-
-/* .labels {
-
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-} */
-
-
-
 input {
   border-radius: 10px;
   outline: 2px solid rgb(255, 255, 51);
@@ -290,7 +259,6 @@ input {
 
 /* Style the search results */
 
-
 /* #results div {
   display: flex;
   flex-direction: column;
@@ -301,21 +269,40 @@ input {
   background: linear-gradient(#9fd8f1, #fedc00); 
 
 } */
-.recipe-container {
+
+#results {
   max-width: 50%;
-  /* set a fixed width */
-  float: right;
-  /* float the containers to the left */
+  max-height: 685px;
+  /* float: right; */
+  /* use flex box or grid instead */
   margin: 10px;
-  /* add some margin between the containers */
+  background: linear-gradient(#9fd8f1, #fedc00, #f0621d);
+  /* display: flex; */
+  display: inline-block;
+  /* height: 150px; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
 
-
+  /* position: fixed; */
 }
 
+.recipies-card {
+  display: inline-block;
+  /* max-height: 100px; */
+  border: double 5px black;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* 
 #results img {
   align-items: center;
   max-width: 400px;
-}
+} */
 
 /* .recipe-container img {
   display: block;
@@ -352,12 +339,14 @@ input {
 
 }*/
 
+
+
 .container {
 
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  border-radius: 5px;
+  /* max-width: 100%; */
+
   /* display: flex;
   flex-direction: column; */
   /* min-height: 100vh;
@@ -365,23 +354,21 @@ input {
   /* padding: 0; */
 }
 
-
-
-
 /* footer {
-  position: absolute;
+  position: relative;
+  width: 100%;
 } */
-
 
 /* this is where th footer is livig */
 .footer-basic {
 
-  /* position: absolute; */
-  bottom: 0;
+  /* position: fixed; */
+  /* bottom: 0; */
   width: 100%;
   padding: 40px 0;
-  background-color: #1a1313;
-  color: #4b4c4d;
+  background-color: hsl(29, 87%, 12%);
+  color: wheat;
+  /* opacity: 40%; */
 
 }
 
