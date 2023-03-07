@@ -1,6 +1,34 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "handlebars": "^4.7.7"
-  }
+    "express-handlebars": "^7.0.0",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "testing",
+  "description": "Lets practice making a foundation and making changes in here before doing such in our super awesome cool fun application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruthcamarillo/testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruthcamarillo/testing/issues"
+  },
+  "homepage": "https://github.com/ruthcamarillo/testing#readme"
 }
