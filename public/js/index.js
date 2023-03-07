@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  };
+=======
 // NAV JS
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
@@ -5,6 +13,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 };
+>>>>>>> acf9a9549689559918bcdfb430bc4e5c74f529d5
 
 
 // JS for our API results
