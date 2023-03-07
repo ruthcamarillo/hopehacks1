@@ -1,15 +1,13 @@
-
+// NAV JS
 function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-    }
-    function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  };
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+};
 
 
-
-
-
+// JS for our API results
 const searchBtn = document.getElementById("searchBtn");
 console.log(searchBtn); // check if searchBtn is being correctly selected
 searchBtn.addEventListener("click", searchRecipes);
@@ -63,15 +61,3 @@ async function searchRecipes() {
 }
 
 
-// document.getElementById("main-box").onclick = function () {
-//   fun()
-// };
-
-
-// function fun() {
-//   document.getElementById("main-box").innerHTML = "Welcome to the javaTpoint.com";
-//   document.getElementsByTagName("body")[0].style.color = "blue";
-//   document.getElementsByTagName("body")[0].style.backgroundColor = "lightgreen";
-//   document.getElementsByTagName("body")[0].style.fontSize = "25px";
-//   document.getElementById("para").style.border = "4px solid red";
-// }  
