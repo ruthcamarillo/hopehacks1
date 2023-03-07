@@ -135,13 +135,8 @@ body {
   background: transparent;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  /* float: left; */
-}
-=======
 }
 
->>>>>>> acf9a9549689559918bcdfb430bc4e5c74f529d5
 
 .navbar-brand {
   padding-left: 41%;
@@ -149,10 +144,6 @@ body {
 }
 
 
-<<<<<<< HEAD
-  }
-=======
->>>>>>> acf9a9549689559918bcdfb430bc4e5c74f529d5
 
 /* Grabs the h1 and h2 for our test run */
 .headers {
