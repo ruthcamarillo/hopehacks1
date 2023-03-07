@@ -3,95 +3,94 @@
 /* .logo {
     text-align: center; */
 /* } */
-.menu
-{
-  position:fixed;
-  left:0px;
-  top:-50px;
-  width:100vw;
-  padding:20px;
-  text-align:center;
-  background-color:rgba(0,0,0,0.9);
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
-  font-size:20px;
-  color:white;
+.menu {
+  position: fixed;
+  left: 0px;
+  top: -50px;
+  width: 100vw;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  color: white;
   /* transition */
-  transition:top 1s;
-  -webkit-transition:top 1s;
+  transition: top 1s;
+  -webkit-transition: top 1s;
 }
-.menu:hover
-{
-  top:0px;
+
+.menu:hover {
+  top: 0px;
 }
+
 /* SPAN OF SPAN */
-.menu span
-{
-  margin:20px;
+.menu span {
+  margin: 20px;
 }
-.menu span a:hover
-{
-  color:rgba(255,255,255,0.5);
+
+.menu span a:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
+
 /* Body and Title*/
-a
-{
-  text-decoration:none;
-  color:white;
+a {
+  text-decoration: none;
+  color: white;
 }
+
 .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-     top: 0;
-    background-color:whitesmoke;
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-   }
-  /* Position the content inside the overlay */
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  /* The navigation links inside the overlay */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* The navigation links inside the overlay */
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    font-family: 'Slackey';
-    color: white;
-    display: block;
-    transition: 0.3s;
-  }
-  /* When you mouse over the navigation links, change their color */
-  .overlay a:hover .overlay a:focus {
-    color: black;
-  }
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  .header{
-    background-color: black;
-  }
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: 'Slackey';
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover .overlay a:focus {
+  color: black;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.header {
+  background-color: black;
+}
 
 /* CSS for home.handlebars */
 
-/* Set the background color of the body */
-/* body {
-  background-image: url('/img/spinachPalePink.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100%;
-} */
+
 
 * {
   margin: 0;
@@ -101,6 +100,20 @@ a
 body {
   background: linear-gradient(#9fd8f1, #fedc00, #f0621d);
 
+
+}
+
+.half-screen {
+  background-image: url('/img/ORY.jpg');
+  background-attachment: fixed;
+  background-size: contain;
+
+
+  padding-bottom: 80px;
+  max-width: 100%;
+  margin: 0;
+  padding-right: 0;
+  display: inline-block;
 
 }
 
@@ -114,7 +127,7 @@ body {
   max-width: 100%;
   margin: 0;
   padding-right: 0;
-  display: inline-block;
+
 }
 
 /* this is where our logo is living */
@@ -122,13 +135,24 @@ body {
   background: transparent;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   /* float: left; */
 }
+=======
+}
+
+>>>>>>> acf9a9549689559918bcdfb430bc4e5c74f529d5
 
 .navbar-brand {
-   padding-left: 41%;
+  padding-left: 41%;
 
+}
+
+
+<<<<<<< HEAD
   }
+=======
+>>>>>>> acf9a9549689559918bcdfb430bc4e5c74f529d5
 
 /* Grabs the h1 and h2 for our test run */
 .headers {
@@ -192,21 +216,7 @@ body {
   filter: drop-shadow(0 0 23px var(--animation-color))
 }
 
-/* form button {
-  display: block;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  background-color: #3f51b5;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-}
 
-form button:hover {
-
-  background-color: #2c3e50;
-}*/
 
 .buttonsearch {
   display: flex;
@@ -257,22 +267,12 @@ input {
 
 /* Style the search results */
 
-/* #results div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-  background: linear-gradient(#9fd8f1, #fedc00); 
 
-} */
 
 #results {
   max-width: 50%;
   max-height: 685px;
-  /* float: right; */
-  /* use flex box or grid instead */
+
   margin: 10px;
   background: linear-gradient(#9fd8f1, #fedc00, #f0621d);
   /* display: flex; */
@@ -282,9 +282,9 @@ input {
   overflow-y: auto;
   text-align: center;
   border-radius: 15px;
-  padding: 20px;
 
-  /* position: fixed; */
+
+
 }
 
 .recipies-card {
@@ -296,24 +296,7 @@ input {
   margin: 20px;
 }
 
-/* 
-#results img {
-  align-items: center;
-  max-width: 400px;
-} */
 
-/* .recipe-container img {
-  display: block;
-  margin: 0 auto;
-} */
-
-/* .results {
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-  max-width: fit-content;
-} */
 
 #results h3 {
   font-size: 50px;
@@ -322,51 +305,29 @@ input {
   text-decoration: underline;
 }
 
-/*
-#results p {
-  margin: 10px 0;
-} */
-/*
-#results img {
-  max-width: 100%;
-  /* height: auto; */
-/* margin-bottom: 10px; 
-  border-radius: 5px;
-  /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
 
-
-}*/
 
 
 
 .container {
 
-  display: block;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
-  /* max-width: 100%; */
+  flex-wrap: wrap;
 
-  /* display: flex;
-  flex-direction: column; */
-  /* min-height: 100vh;
-  max-width: inherit; */
-  /* padding: 0; */
 }
 
-/* footer {
-  position: relative;
-  width: 100%;
-} */
+
 
 /* this is where th footer is livig */
 .footer-basic {
 
-  /* position: fixed; */
-  /* bottom: 0; */
+
   width: 100%;
   padding: 40px 0;
   background-color: hsl(29, 87%, 12%);
   color: wheat;
-  /* opacity: 40%; */
 
 }
 
@@ -376,7 +337,7 @@ input {
   text-align: center;
   font-size: 18px;
   line-height: 1.6;
-  /* margin-bottom: 0; */
+
 }
 
 .footer-basic li {
@@ -422,4 +383,43 @@ input {
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
+}
+
+@media (max-width: 450px) {
+
+  .navbar-brand {
+    padding-left: 120px;
+  }
+
+
+  #results {
+    max-width: fit-content;
+  }
+
+  .recipies-card {
+    max-width: 250px;
+  }
+
+  #results h3 {
+    font-size: 30px;
+  }
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+
+  #results {
+    max-width: fit-content;
+  }
+
+  .recipies-card {
+    max-width: fit-content;
+  }
+
 }
