@@ -27,64 +27,148 @@
 <body>
     {{>header}}
     <div class="banner-area">
-        <div class="banner">
-            {{!-- <img class="banner-img" src="/img/guavaGreen.jpg"> --}}
-        </div>
-        <h2 class="headers"> Gut Health</h2>
-    </div>
-    {{!-- <img class="banner-img" src="/img/guavaGreen.jpg"> --}}
-    <div class="content-area">
-        <div class="wrapper">
+
+        {{!-- <img class="banner-img" src="/img/pepperblue.jpg"> --}}
+
+        <h1> GUT HEALTH </h2>
 
             <h2 class="headers"> RESOURCES </h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ad accusantium! Illum corporis
-                soluta ullam fugit hic? Quibusdam, suscipit voluptatum ab magnam odio necessitatibus nesciunt quam,
-                ratione laudantium quidem blanditiis!</p>
+            <p class="text"> The health of our gut is essential for overall well-being as it is responsible for
+                digesting and
+                absorbing nutrients from the food we consume. A healthy gut microbiome is crucial for proper digestion,
+                immune system function, and even mental health. Eating a balanced and nutritious diet is one of the best
+                ways to maintain a healthy gut.
+                <br>
+                Nutritious recipes that are rich in fiber, prebiotics, and probiotics
+                help to support the growth of beneficial gut bacteria and reduce inflammation. Incorporating a variety
+                of fruits, vegetables, whole grains, lean protein, and healthy fats into your diet can help improve gut
+                health and overall health. Thus, gut health and finding nutritive recipes are closely linked and go hand
+                in hand.
+            </p>
 
+
+
+            <button class="btn">
+                <a href="#down">LEARN MORE</a>
+            </button>
+            {{!-- <div id="down">
+                <h1>You are down!</h1>
+            </div> --}}
+
+    </div>
+
+    <section>
+        <h3 class="headers"> Yo! </h3>
+        <div class="message">
+            <p class="text">
+                Understanding nutrition and finding ways to imporove your eating habits is hard! We understand the
+                struggle, that is why we've compliled a few resources to help you on your journey.
+                <br>
+                If you have any questions we have a contact form where you can leave comments or questions!
+            </p>
+        </div>
+        <button class="btn">
+            <a href="/contact">Talk To Us</a>
+        </button>
+
+
+    </section>
+
+
+
+    <div id="down"></div>
+    {{!-- <img class="banner-img" src="/img/guavaGreen.jpg"> --}}
+    <div class="content-area">
+
+
+        <div class="card">
+            <div class="card__image">
+                <img src="/img/pineappleblue.jpg">
+
+            </div>
+            <div class="card__content">
+                <p class="card__title">Parkview Health</p>
+                <p class="card__text">The Importance of Gut Health </p>
+                <a class="card__button"
+                    href="https://www.parkview.com/community/dashboard/the-importance-of-gut-health">Read More</a>
+            </div>
         </div>
 
         <div class="card">
-            <div class="card-header">
-                Featured
+            <div class="card__image">
+                <img src="/img/AvacadoCucumberYellow.jpg">
             </div>
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="https://www.healthline.com/health/gut-health" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+            <div class="card__content">
+                <p class="card__title">Healthline</p>
+                <p class="card__text">Understanding Gut Health: Signs of an Unhealthy Gut</p>
+                <a class="card__button" href="https://www.healthline.com/health/gut-health">Read More</a>
             </div>
         </div>
 
 
+        <div class="card">
+            <div class="card__image">
+                <img src="/img/OrangeBlueIce.jpg">
+            </div>
+            <div class="card__content">
+                <p class="card__title">Piedmont</p>
+                <p class="card__text">10 Tips for a Healthier Gut </p>
+                <a class="card__button" href="https://www.piedmont.org/living-better/10-tips-for-a-healthier-gut">Read
+                    More</a>
+            </div>
+        </div>
 
-        {{>footer}}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <div class="card">
+            <div class="card__image">
+                <img src="/img/guavaGreen.jpg">
+            </div>
+            <div class="card__content">
+                <p class="card__title">Johns Hopkins Medicine </p>
+                <p class="card__text">Your Digestive System </p>
+                <a class="card__button"
+                    href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/your-digestive-system-5-ways-to-support-gut-health">Read
+                    More</a>
+            </div>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
+    </div>
+
+
+
+
+
+    {{!-- <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+        </div>
+    </div> --}}
+
+
+    </div>
+
+    {{>footer}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
